@@ -1,0 +1,23 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-commerce Website</title>
+</head>
+<body>
+
+    <div>
+    <h1>Enter Product for  Recommendations</h1>
+    <form method="GET"
+          action="{{ url_for('recommendations') }}">
+        <input type="text"
+               name="product_name"
+               placeholder="Product Name">
+        <button type="submit">submit</button>
+    </form>
+</div>
+
+
+
+</body>
+</html

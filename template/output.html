@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <h1>Some recomendations </h1>
+        <table>
+
+        {%for row,img  in data%}
+        <tr>
+        {%for cell in row%}
+       <td> {{cell}}</td>
+        {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+        </body></html>
